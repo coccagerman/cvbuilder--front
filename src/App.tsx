@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import Header from "./components/header/Header"
+import Basic from "./components/basic/Basic"
+import Links from "./components/links/Links"
+import Intro from "./components/intro/Intro"
+import Work from "./components/work/Work"
+import Education from "./components/education/Education"
+import Submit from "./components/submit/Submit"
+
+import ContextProvider from './context/ContextProvider'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ContextProvider>
+      <Header/>
+      <Basic/>
+      <Links/>
+      <Intro/>
+      <Work/>
+      <Education/>
+      <Submit/>
+    </ContextProvider>
+  )
 }
 
-export default App;
+export default App
