@@ -23,7 +23,7 @@ export default function Intro() {
                         justifyContent="center"
                         alignItems="center"
                     >   
-                        <Typography variant="h3" component="div" gutterBottom>Introduction</Typography>
+                        <Typography variant="h4" component="div" gutterBottom>Introduction</Typography>
 
                         <Box display="flex" justifyContent="space-around" alignItems="center" py={1} width="50%">
                             <TextField

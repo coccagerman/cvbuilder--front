@@ -36,7 +36,7 @@ export default function Education() {
                         alignItems="center"
                         position="relative"
                     >   
-                        <Typography variant="h3" component="div" gutterBottom>Education</Typography>
+                        <Typography variant="h4" component="div" gutterBottom>Education</Typography>
 
                         <Button
                             variant="contained"

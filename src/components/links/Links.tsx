@@ -22,7 +22,7 @@ export default function Links() {
         <Box width="60%" mx="auto">
             <Card sx={{ py: 2, my: 1 }}>
                 <CardContent sx={{ display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"space-around" }}>
-                    <Typography variant="h3" component="div" gutterBottom mx="auto">Links</Typography>
+                    <Typography variant="h4" component="div" gutterBottom mx="auto">Links</Typography>
 
                     <Box
                         component="form"

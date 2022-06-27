@@ -37,7 +37,7 @@ export default function Work() {
                         alignItems="center"
                         position="relative"
                     >   
-                        <Typography variant="h3" component="div" gutterBottom>Work experience</Typography>
+                        <Typography variant="h4" component="div" gutterBottom>Work experience</Typography>
 
                         <Button
                             variant="contained"

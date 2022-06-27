@@ -30,7 +30,7 @@ export default function Basic() {
                         justifyContent="center"
                         alignItems="center"
                     >   
-                        <Typography variant="h3" component="div" gutterBottom>Basic data</Typography>
+                        <Typography variant="h4" component="div" gutterBottom>Basic data</Typography>
 
                         <Box display="flex" justifyContent="space-around" alignItems="center" py={1} width="50%">
                             <TextField
